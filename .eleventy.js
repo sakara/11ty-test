@@ -1,9 +1,11 @@
 module.exports = function(eleventyConfig) {
-  // You can return your Config object (optional).
-  return {
-    dir: {
-      input: "src",
-      output: "public"
-    }
-  };
+    eleventyConfig.addPassthroughCopy('./src/style.css');
+    eleventyConfig.addPassthroughCopy('./src/assets');
+
+    return {
+        dir: {
+        input: "src",
+        output: "public"
+        }
+    };
 };
