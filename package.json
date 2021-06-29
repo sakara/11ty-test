@@ -2,7 +2,7 @@
   "name": "11ty-test",
   "version": "1.0.0",
   "description": "This is an open source project from [SAKARA](https://www.pazlab.com). Feedback and questions are welcome!\r Find the project requirements here: [{project_name}](url)",
-  "main": "index.js",
+  "main": "eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
